@@ -14,7 +14,7 @@ source:
     - 0001-Drop-bad-valued-MAC_OS_X_VERSION_MIN_REQUIRED.patch
 
 build:
-  number: 0
+  number: 1
   skip: true  # [not osx]
   script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv '
 
@@ -57,3 +57,4 @@ about:
 extra:
   recipe-maintainers:
     - nehaljwani
+    - holymonson
